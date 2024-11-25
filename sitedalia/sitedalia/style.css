@@ -58,6 +58,80 @@ body{
     
 
 }
+header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
 .logo:hover{
     color: #3c0000;
+}
+.linha-cabecalho{
+    flex:40%;
+    margin-left: 10%;
+    margin-top: 10px;  
+    border-radius:20px;
+    border: #edbad1 solid;
+    text-align: center;
+    color: #33282d;
+    
+    }
+.linha-cabecalho h2{
+    font-weight: 900;
+    font-size: 20px;
+    margin:2;
+    padding: 0;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: #8f6277;
+    
+}
+.linha-cabecalho h1{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: #8f6277;
+    margin:0;
+    padding: 0;
+
+}
+.linha-cabecalho p{
+    text-align: center;
+}
+.imgcabecalho{
+    margin-right:0%;
+    flex: 40%;
+    text-align: center;
+    
+
+    
+    
+
+}
+.botao-contato{
+    background-color:#feeaf3;
+    padding: 20px;
+    color: #8f6277;
+    text-transform: uppercase;
+    border:#8f6277 solid;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 3%;
+
+}
+.botao-contato:hover{
+    background-color: #8f6277 ;
+    color:white;
+    
+}
+.linha-cabecalho h1:hover{
+    color:black;
+}
+.info h2{
+    color:#8f6277;
+}
+.info h3{
+    color: #8f6277;
 }
