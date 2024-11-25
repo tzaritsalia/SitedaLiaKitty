@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Sevillana&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+
+    background-color: #feeaf3;
+    
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: #8f6277;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+
+}
+.menu a{
+    color: #8f6277;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: #8f6277;
+    border-top: 4px solid white;
+}
+#botao{
+    color: #8f6277;
+    padding: 10px 25px;
+    
+    border-radius: 7px;
+    margin-left: 10px;
+    margin: 5%;
+}
+#botao:hover{
+    border: none;
+    background-color: #8f6277;
+    color: white;
+    
+
+}
+.logo:hover{
+    color: #3c0000;
+}
