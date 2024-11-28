@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.primeira-div{
+    padding: 120px 20px 20px 20px;
+
+}
+.primeiro-item{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.primeiro-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+.primeira-div h1{
+    text-align: center;
+    color: #8f6277;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    text-decoration: underline;
+}
+.primeiro-item p{
+    text-align: left;
+    margin-left:20px;
+    font-size: 15px;
+}
+.primeiro-item h2{
+    text-align: left;
+    margin-left: 20px;
+    
+    font-size: 25px;
+}
+.primeiro-item h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

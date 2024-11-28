@@ -28,9 +28,11 @@ body{
     margin-left: 10%;
     font-family: "Edu AU VIC WA NT Arrows", cursive;
     color: #8f6277;
+    display: flex;
+    padding-left: 10px;
 }
 .menu{
-    flex: 70%;
+    flex: 50%;
     text-align: right;
     padding: 20px;
 
